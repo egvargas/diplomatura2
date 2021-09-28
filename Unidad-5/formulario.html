@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="">
+        <h2><p class="titulo">Complete los datos</h2>
+        <p>
+            <label for="nom"> Nombre</label>
+            <input class="formu" type="text" name="nombre" />
+        </p>
+        <p>   
+            <label for="nom">Apellido</label>
+            <input class="formu" type="text" name="apellido" />
+            
+        </p>
+        <p>   
+            <label for="nom">Correo</label>
+            <input class="formu" type="text" name="Correo" />
+            
+        </p>
+    <label for="genero">Genero:</label>
+        <ul>
+            <il>
+                <input class="boton" type="radio" name="genero" value="Masculino">
+                <label>Masculino</label>
+            </il>
+            <il>
+                <input class="boton" type="radio" name="genero" value="Femenino">
+                <label>Femenino</label>
+            </il>
+        </ul>
+        <p>
+        <label> Interes:</label>
+             <ul>
+                <li>
+                    <input type="checkbox" name="Interes[]" value="Tecnologia" id="Tecnologia" />
+                    <label for="Tecnologia">Tecnologia</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Interes[]" value="Musica" id="Musica" />
+                    <label for="Musica">Musica</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Interes[]" value="Informacion" id="Informacion" />
+                    <label for="Informacion">Informacion</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="Estudios">Estudios</label>
+            <select name="Titulo">
+                <option value="Primario">Primario</option>
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar todo"/>
+        </p>
+    </form>
+</body>
+</html>

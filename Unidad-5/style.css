@@ -1,0 +1,42 @@
+ .caja{
+    background: rgba(0,163,255,0.75);
+    background: linear-gradient(12deg,rgba(0,163,255,0.75) 0%, rgba(0,117,255,0.96) 80%);
+    color: white;
+    height: 150x;
+    width: 250px;
+    box-shadow: 0 0 15px black;
+    margin-left: 100px;
+}
+.caja2{
+    background: #dae0df;
+    background: linear-gradient(55deg,#dae0df 0%, rgba(0,209,255,0.51) 80%);
+    color: black;
+    height: 80px;
+    width: 1200px;
+    box-shadow: 0 0 15px black;
+    margin-left: 100px;
+    column-count: 4;
+    column-rule: 2px solid black;
+    text-shadow: 3px 4px 2px rgba(0,0,0,0.2);
+}
+.txtcaja{
+    text-shadow: 3px 4px 2px rgba(0,0,0,0.6);
+}
+.formu{
+    border: 9px solid #ff6550;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.titulo{
+    text-shadow: -1px 4px 13px rgba(0,0,0,0.6);
+
+}
+.boton{
+    top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+
+}
