@@ -1,5 +1,6 @@
 .flex-contenedor {
     background-color: rgba(128, 128, 128, 0.712);
+    height: 500px;
     /*display: flex;*/
     display: inline-flex;
     flex-direction: row ;
