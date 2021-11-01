@@ -1,0 +1,121 @@
+/* font-family: 'Open Sans', sans-serif; */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+header{
+    background-color: #c4c4c4;
+    padding: 1em 0;
+    text-align: center;   
+    
+}
+header h1{
+    color: white;
+    font: italic;
+    size: 2em;
+    font-weight: 100;
+    display: inline-block;
+    
+    /* margin-left: 400px; */
+}
+footer{
+    color: white;
+}
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c4c4c4;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+.holder{    
+    max-width: 1500px;
+    margin: auto;
+    padding: 16px;
+    
+}
+footer{
+    background-color:#0f0f0f ;
+    clear: both;
+    color: write;
+    padding: 2em 0;
+    margin-top: 1em;
+    text-align: center;
+}
+
+h2{
+    color: #525050 ;
+    font-weight: 400;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.left{
+    float: left;
+    }
+.right{
+    float:right;
+}
+
+/* Estilos para el home */
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos, .whats{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 5em;
+}
+.whats{
+    width: 25%;
+}
+.what{
+    background-color:#e6e6e6 ;
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.what .cita{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+}
+.what .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
