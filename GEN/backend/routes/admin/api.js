@@ -12,7 +12,7 @@ router.get('/novedades', async function (req, res, next) {
     // se agrega la imagen que adjuntamos:
     novedades = novedades.map(novedad => {
         if (novedad.img_id) {
-            const imagen = cloudinary.image(novedad.img_id, {
+            const imagen = cloudinary.url(novedad.img_id, {
                 width: 50,
                 height: 50,
                 crop: 'fill'
