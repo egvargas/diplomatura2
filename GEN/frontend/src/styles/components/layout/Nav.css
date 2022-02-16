@@ -1,0 +1,20 @@
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c4c4c4;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }

@@ -1,0 +1,43 @@
+
+<section class="vh-60 gradient-custom">
+  <div class="container py-5 h-60">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              
+              <p class="text-white-50 mb-5"><h2>Modificar Novedades</h2></p>
+              <form method="post" action="/admin/novedades/modificar" enctype="multipart/form-data">
+              
+                <input type="hidden" value="{{novedad.id}}" name="id">
+              
+            <div class="form-outline form-white mb-4">
+                <input type="text"  class="form-control" placeholder="Titulo" value="{{novedad.titulo}}" name="titulo"/>    
+            </div>
+            <div class="form-outline form-white mb-4">
+                <textarea type="text"  class="form-control" placeholder="Subtitulo" name="subtitulo" />{{novedad.subtitulo}}</textarea>
+            </div>
+            <div class="form-outline form-white mb-4">
+                <textarea type="text" class="form-control form-control-lg" placeholder="Cuerpo" name="cuerpo">{{novedad.cuerpo}}</textarea>
+            </div>
+            <div class="form-outline form-white mb-4">
+            <p>
+                <label><input type="file" name="imagen" id="imagen"/></label>
+            </p>
+            <p>
+              <label><input type="checkbox" name="img_delete" id="img_delete" value="1">
+               Eliminar imagen actual?</label>
+               <input type="hidden" name="img_original" value="{{novedad.img_id}}">                
+            </p>  
+            
+              <button href="/admin/novedades" class="btn btn-primary">Volver</button>
+              <button type="submit" class="btn btn-primary">Modificar</button>
+            </div>           
+</section>
+</form>
+{{#if error}}
+    <h2>{{message}}</h2>
+{{/if}}

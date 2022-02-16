@@ -1,0 +1,55 @@
+.holder{    
+    max-width: 1500px;
+    margin: auto;
+    padding: 16px;}
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos, .whats{
+    box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 5em;
+}
+.whats{
+    width: 25%;
+}
+.what{
+    background-color:#e6e6e6 ;
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.what .cita{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+}
+.what .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+.columna{
+    width: 50%;
+    padding: 0.625em;
+    box-sizing: border-box;
+    }
+.columna.left{
+    border-right: 5px solid grey;
+}
+.columna.right p{ 
+    font-size: 0.9em;
+    text-align: center;
+}
+.columna.right ul li{
+    font-size: 0.8em;}

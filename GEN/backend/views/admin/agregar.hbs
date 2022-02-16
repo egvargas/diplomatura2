@@ -1,0 +1,41 @@
+<form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+<section class="vh-60 gradient-custom">
+  <div class="container py-5 h-60">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              
+              <p class="text-white-50 mb-5"><h2>Agregar Novedades</h2></p>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text"  class="form-control" placeholder="Titulo" name="titulo"/>
+                
+              </div>
+              
+              <div class="form-outline form-white mb-4">
+                <input type="text"  class="form-control" placeholder="Subitulo" name="subtitulo"/>
+                
+              </div>
+            <div class="form-outline form-white mb-4">
+                <textarea type="text" class="form-control form-control-lg" placeholder="Cuerpo" name="cuerpo">
+
+                </textarea>
+                
+              </div>
+              <div class="form-outline form-white mb-4">
+                <label>Imagen: <input type="file" name="imagen" id="imagen"/></label>
+                
+              </div>
+
+              <button type="submit" class="btn btn-primary">Guardar</button>
+              
+              </div>           
+</section>
+</form>
+{{#if error}}
+    {{message}}
+{{/if}}
