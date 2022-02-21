@@ -15,7 +15,7 @@ router.post('/', async (req, res, next) => {
     var password = req.body.password;
 
     var data = await usuariosModel.getUser(usuario, password);
-    
+    /*a verrrrrrrrrrr*/
     if(data != undefined){
       req.session.id_usuario = data.id;
       req.session.nombre = data.usuario;  
@@ -37,8 +37,8 @@ router.post('/', async (req, res, next) => {
         layout: 'admin/layout'
       });
     });
-
     module.exports = router;
 
-/*    */
+
+/*  se activa para luego debuggear  */
     /*module.exports = express;*/
